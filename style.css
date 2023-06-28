@@ -1,0 +1,302 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 50px;
+  /* border-bottom: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #465059;
+  padding: 30px 5%;
+}
+
+header nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+
+header i {
+  margin-right: 75px;
+}
+
+header a {
+  text-decoration: none;
+  color: #465059;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  padding: 10px 15px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+}
+
+main section {
+  background: #465059;
+  padding: 50px 0 150px 0;
+  text-align: center;
+  height: auto;
+}
+
+main section h1, p {
+  color:#f2f2f2;
+  font-family: 'Oswald', sans-serif;
+}
+
+main section h1 {
+  margin: 50px 0;
+  font-size: 75px;
+}
+
+main section p {
+  margin: 0 15%;
+  font-size: 28px;
+}
+
+.play li {
+  padding-top: 50px;
+  display: inline-block;
+  list-style: none;
+  color:#f2f2f2;
+  padding-right: 5px;
+}
+
+.play li + li {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 20px;
+}
+
+main section span {
+  color: black;
+  font-family: 'Roboto';
+  font-style: italic;
+  position: relative;
+  top: 100px;
+}
+
+.cha {
+  background: #f2f2f2;
+}
+
+.cha h2 {
+  font-family: 'Oswald';
+  font-size: 50px;
+  padding-bottom: 25px;
+  margin-top: 10%;
+}
+
+.cha p {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 100;
+  margin: 0 20%;
+  font-size: 28px;
+}
+
+.sectionThree {
+  width: 100%;
+  background:#D7D8D9;
+  display: flex;
+}
+
+.sectionThree div {
+  width: 50%;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  background:#465059;
+  margin: 50px auto;
+}
+
+.bing {
+  margin-left: 10%;
+}
+
+.bong {
+  margin-right: 10%;
+}
+
+.bing h3 {
+  color: black;
+  font-family: 'Oswald';
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.bing p {
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 10% 50px 10%;
+}
+
+.bing a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 45px;
+  font-family: 'Oswald';
+}
+
+.bong h3 {
+  color: black;
+  font-family: 'Oswald';
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.bong p {
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 10% 50px 10%;
+}
+
+.bong a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 45px;
+  font-family: 'Oswald';
+}
+
+.sectionFour {
+  background: #f2f2f2;
+}
+
+.sectionFour h2 {
+  font-family: 'Oswald';
+  font-size: 50px;
+  padding-bottom: 50px;
+  margin-top: 7%;
+}
+
+.sectionFour p {
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: black;
+  margin: 0 25%;
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+
+.sectionFour a {
+  font-family: 'Oswald';
+  border: 1px solid black;
+  padding: 10px 45px;
+  text-decoration: none;
+  color: black;
+}
+
+.sectionFive {
+  background: #141E26;
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 80%;
+  float: left;
+}
+
+.sectionFive * {
+  padding-bottom: 20px;
+}
+
+.sectionFive .icons > i {
+  padding-right: 20px;
+}
+
+
+.sectionFive span {
+  color:#465059;
+  font-family: 'Roboto';
+}
+
+.sectionFive li {
+  display: inline-block;
+  color:#f2f2f2;
+  font-family: 'Roboto';
+  padding-right: 25px;
+}
+
+.address {
+  background: #141E26;
+  padding-top: 75px;
+  padding-right: 50px;
+  width: 20%;
+  float: right;
+  color: #f2f2f2;
+  font-family: 'Roboto';
+  padding-bottom: 57.5px;
+}
+
+.address h4 {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.address p {
+  font-family: 'Roboto';
+}
+
+.address span {
+  font-weight: 700;
+}
+
+footer {
+  background:#141E26;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  clear: both;
+}
+
+footer p {
+  font-family: 'Roboto';
+  padding-top: 10px;
+  border-top: 1px solid #f2f2f2;
+  margin-right: 50px;
+}
+
+footer i {
+  float: right;
+  padding-right: 50px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
